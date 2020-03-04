@@ -48,6 +48,7 @@ public class StepDefinitions {
         }else{
             Assert.assertTrue(false);
         }
+        driver.quit();
     }
 
     @When("I fill Username as {string} and Password as {string}")

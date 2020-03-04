@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/Login.feature",
         glue = {"stepdefs"},
-        tags = {"~@Ignore"},
+        tags = {"@Regression"},
         dryRun = false,
         strict = true,
         monochrome = true,
@@ -15,8 +15,7 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports/cucumber-pretty",
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
-        }
-        )
+        })
 
 public class TestRunner {
 }
