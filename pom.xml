@@ -25,6 +25,12 @@
     </build>
     <!---->
 
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+
     <dependencies>
         <dependency>
             <groupId>io.cucumber</groupId>

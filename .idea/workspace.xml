@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36776748-3330-44bf-9bdd-0eb5dec1bcc9" name="Default Changelist" comment="" />
+    <list default="true" id="36776748-3330-44bf-9bdd-0eb5dec1bcc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/ServiceHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,13 +38,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1YcHPKuXh9ZeCPp3ezpdOUOUSiO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -29,9 +57,104 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java/resources/features" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: Login (1)">
+    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GherkhinHomework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GherkhinHomework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User navigate to the Login Page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GherkhinHomework" />
+      <option name="NAME_FILTER" value="^User navigate to the Login Page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User navigate to the Login Page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User navigate to the Login Page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GherkhinHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/lim/Desktop/GherkhinHomework/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GherkhinHomework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: Login (1)" />
+        <item itemvalue="Cucumber java.Scenario: User navigate to the Login Page" />
+        <item itemvalue="TestNG./Users/lim/Desktop/GherkhinHomework/testing.xml" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Feature: Login" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,10 +169,99 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2358" y="439" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583294499228">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2358" y="439" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.3440.1417/855.1463.1680.963@0.23.3440.1417" timestamp="1583294499228" />
+    <state x="2144" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583289458251">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2144" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583289458251" />
+    <state x="1461" y="1811" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583293463322">
+      <screen x="855" y="1463" width="1680" height="963" />
+    </state>
+    <state x="1461" y="1811" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.3440.1417/855.1463.1680.963@855.1463.1680.963" timestamp="1583293463322" />
+    <state width="2231" height="365" key="GridCell.Tab.0.bottom" timestamp="1583301320459">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2231" height="365" key="GridCell.Tab.0.bottom/0.23.3440.1337/855.1463.1680.1027@0.23.3440.1337" timestamp="1583301320459" />
+    <state width="2231" height="365" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.963@0.23.3440.1417" timestamp="1583299297288" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583289462212" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.967@0.23.3440.1417" timestamp="1583238892492" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.972@0.23.3440.1417" timestamp="1583239144127" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.973@0.23.3440.1417" timestamp="1583239384876" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.974@0.23.3440.1417" timestamp="1583239400056" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.975@0.23.3440.1417" timestamp="1583239488453" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.976@0.23.3440.1417" timestamp="1583239497379" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.979@0.23.3440.1417" timestamp="1583240065109" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.981@0.23.3440.1417" timestamp="1583240196231" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.984@0.23.3440.1417" timestamp="1583240440191" />
+    <state width="1809" height="382" key="GridCell.Tab.0.bottom/0.23.3440.1417/855.1463.1680.985@0.23.3440.1417" timestamp="1583240471639" />
+    <state width="2231" height="365" key="GridCell.Tab.0.center" timestamp="1583301320457">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2231" height="365" key="GridCell.Tab.0.center/0.23.3440.1337/855.1463.1680.1027@0.23.3440.1337" timestamp="1583301320457" />
+    <state width="2231" height="365" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.963@0.23.3440.1417" timestamp="1583299297287" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583289462211" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.967@0.23.3440.1417" timestamp="1583238892491" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.972@0.23.3440.1417" timestamp="1583239144126" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.973@0.23.3440.1417" timestamp="1583239384875" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.974@0.23.3440.1417" timestamp="1583239400055" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.975@0.23.3440.1417" timestamp="1583239488452" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.976@0.23.3440.1417" timestamp="1583239497377" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.979@0.23.3440.1417" timestamp="1583240065109" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.981@0.23.3440.1417" timestamp="1583240196229" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.984@0.23.3440.1417" timestamp="1583240440190" />
+    <state width="1809" height="382" key="GridCell.Tab.0.center/0.23.3440.1417/855.1463.1680.985@0.23.3440.1417" timestamp="1583240471638" />
+    <state width="2231" height="365" key="GridCell.Tab.0.left" timestamp="1583301320457">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2231" height="365" key="GridCell.Tab.0.left/0.23.3440.1337/855.1463.1680.1027@0.23.3440.1337" timestamp="1583301320457" />
+    <state width="2231" height="365" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.963@0.23.3440.1417" timestamp="1583299297287" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583289462210" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.967@0.23.3440.1417" timestamp="1583238892490" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.972@0.23.3440.1417" timestamp="1583239144125" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.973@0.23.3440.1417" timestamp="1583239384874" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.974@0.23.3440.1417" timestamp="1583239400055" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.975@0.23.3440.1417" timestamp="1583239488451" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.976@0.23.3440.1417" timestamp="1583239497376" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.979@0.23.3440.1417" timestamp="1583240065108" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.981@0.23.3440.1417" timestamp="1583240196229" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.984@0.23.3440.1417" timestamp="1583240440189" />
+    <state width="1809" height="382" key="GridCell.Tab.0.left/0.23.3440.1417/855.1463.1680.985@0.23.3440.1417" timestamp="1583240471637" />
+    <state width="2231" height="365" key="GridCell.Tab.0.right" timestamp="1583301320458">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2231" height="365" key="GridCell.Tab.0.right/0.23.3440.1337/855.1463.1680.1027@0.23.3440.1337" timestamp="1583301320458" />
+    <state width="2231" height="365" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.963@0.23.3440.1417" timestamp="1583299297288" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583289462212" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.967@0.23.3440.1417" timestamp="1583238892492" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.972@0.23.3440.1417" timestamp="1583239144126" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.973@0.23.3440.1417" timestamp="1583239384875" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.974@0.23.3440.1417" timestamp="1583239400056" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.975@0.23.3440.1417" timestamp="1583239488453" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.976@0.23.3440.1417" timestamp="1583239497378" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.979@0.23.3440.1417" timestamp="1583240065109" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.981@0.23.3440.1417" timestamp="1583240196230" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.984@0.23.3440.1417" timestamp="1583240440191" />
+    <state width="1809" height="382" key="GridCell.Tab.0.right/0.23.3440.1417/855.1463.1680.985@0.23.3440.1417" timestamp="1583240471639" />
+    <state x="1515" y="1592" key="Maven.ArtifactSearchDialog" timestamp="1583293855310">
+      <screen x="855" y="1463" width="1680" height="963" />
+    </state>
+    <state x="1515" y="1592" key="Maven.ArtifactSearchDialog/0.23.3440.1417/855.1463.1680.963@855.1463.1680.963" timestamp="1583293855310" />
+    <state x="2421" y="621" key="Maven.ArtifactSearchDialog/0.23.3440.1417/855.1463.1680.965@0.23.3440.1417" timestamp="1583291962901" />
+    <state x="2421" y="621" key="Maven.ArtifactSearchDialog/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583290142898" />
     <state x="2023" y="330" key="SettingsEditor" timestamp="1583235057228">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="2023" y="330" key="SettingsEditor/0.23.3440.1417/855.1463.1680.965@0.23.3440.1417" timestamp="1583235057228" />
+    <state x="1944" y="389" key="new project wizard" timestamp="1583289519621">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="1944" y="389" key="new project wizard/0.23.3440.1417/855.1463.1680.966@0.23.3440.1417" timestamp="1583289519621" />
   </component>
 </project>
